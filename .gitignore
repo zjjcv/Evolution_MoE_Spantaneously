@@ -1,0 +1,83 @@
+# Data files
+data/
+*.parquet
+*.json
+*.jsonl
+
+# Model weights and other model directories
+Gemma-*/
+DeepSeek-V2-List/
+Qwen-*/
+*-4B-*/
+*-7B-*/
+*-8B-*/
+*-Instruct/
+*-base/
+*.bin
+*.safetensors
+*.gguf
+
+# Results and checkpoints
+results/
+checkpoints/
+outputs/
+logs/
+wandb/
+*.ckpt
+*.pth
+
+# Research papers and docs
+*.pdf
+*.md
+!README.md
+
+# Other repositories
+integrated-info-decomp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.tar
+*.tar.gz
+*.zip
+*.7z
