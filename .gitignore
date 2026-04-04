@@ -76,6 +76,10 @@ env/
 .DS_Store
 Thumbs.db
 
+# Numba 缓存
+*.nbc
+*.nbi
+
 # Large files
 *.tar
 *.tar.gz
